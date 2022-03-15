@@ -20,7 +20,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 
 | Title      | Link |
 | ----------- | ----------- |
-| prep1:Introduction to SQL   | [prep1:Introduction to SQL](prep1:IntroductiontoSQL.md)|
+| prep1:Introduction to SQL   | [prep1:Introduction to SQL](./prep1:IntroductiontoSQL.md)|
 | Prep2:Practice In The Terminal   | [Prep2:Practice In The Terminal](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep2:PracticeInTheTerminal.md) |
 |prep3: Read About Mindsets   |      [prep3: Read About Mindsets](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep3-Mindset.md) |
 | prep4 : Read C# History    |[prep4 : Read C# History](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep4:%20ReadC%23History.md) |
