@@ -24,7 +24,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 | Prep2:Practice In The Terminal   | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep2:PracticeInTheTerminal.md |
 |prep3: Read About Mindsets   |  https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep3-Mindset.md |
 | prep4 : Read C# History.md    | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep4:%20ReadC%23History.md |
-| Read: 01 - Exception Handling & Debugging | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read1:ExceptionHandling%26Debugging.md |
+| Read: 01 - Exception Handling & Debugging | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read1:ExceptionHandlingDebugging.md |
 
 
 ---
