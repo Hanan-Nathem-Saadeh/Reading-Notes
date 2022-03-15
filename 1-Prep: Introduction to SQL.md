@@ -4,15 +4,6 @@
  ## Lesson 1: SELECT queries:
 We need to write SELECT statements to retrieve data from a SQL database
 **To select specific data from table-> **
-```
-SELECT column, another_column, …
-FROM mytable;
-```
-**To select all data from table->**
-```
-SELECT * 
-FROM mytable;
-```
 ## Exercise1
 ![Exercise1](./img/1.png "1")
 ---
