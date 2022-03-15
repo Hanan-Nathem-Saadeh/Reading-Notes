@@ -20,11 +20,11 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 
 | Title      | Link |
 | ----------- | ----------- |
-| sql   | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/IntroductiontoSQL.md|
-| Practice in the Terminal    | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/2-Prep:%20Practice%20in%20the%20Terminal.md |
-|Read About Mindsets   |  https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/3-Prework-Mindset.md |
-| Read C# History.md    | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/4-Prep:%20Read%20C%23%20History.md |
-| Read: 01 - Exception Handling & Debugging | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/1-Read1:ExceptionHandling&Debugging.md |
+| prep1:Introduction to SQL   | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/prep1:IntroductiontoSQL.md|
+| Prep2:Practice In The Terminal   | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep2:PracticeInTheTerminal.md |
+|prep3: Read About Mindsets   |  https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep3-Mindset.md |
+| prep4 : Read C# History.md    | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep4:%20ReadC%23History.md |
+| Read: 01 - Exception Handling & Debugging | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read1:ExceptionHandling%26Debugging.md |
 
 
 ---
