@@ -23,6 +23,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 | Learn SQL      | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/1-Prep:%20Introduction%20to%20SQL.md       |
 | Practice in the Terminal    | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/2-Prep:%20Practice%20in%20the%20Terminal.md |
 |Read About Mindsets   |  https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/3-Prework-Mindset.md |
+| Read C# History.md    | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/4-Prep:%20Read%20C%23%20History.md |
 | Read: 01 - Exception Handling & Debugging | https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/1-Read1:ExceptionHandling&Debugging.md |
 
 
