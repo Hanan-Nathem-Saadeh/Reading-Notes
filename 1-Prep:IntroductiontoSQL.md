@@ -10,7 +10,7 @@ We need to write SELECT statements to retrieve data from a SQL database
  ## Lesson 2: Queries with constraints:
 Use a WHERE clause to filter data,and applied to each row of data by checking specific column values to determine whether it should be included in the results or not.
 ```
-SELECT column, another_column, …
+SELECT column, another_column,
 FROM mytable
 WHERE condition
     AND/OR another_condition
@@ -26,8 +26,8 @@ text-data specific operators(Examples)
 #### LIKE
 #### NOT LIKE
 #### %
-#### IN (…)	
-#### NOT IN (…)	
+#### IN 	
+#### NOT IN 	
 ## Exercise3
 ![Exercise3](./img/3.png "3")
 ---
@@ -35,13 +35,13 @@ text-data specific operators(Examples)
 #### DISTINCT-> remove duplicate rows.
 
 ```
-SELECT DISTINCT column, another_column, …
+SELECT DISTINCT column, another_column,
 FROM mytable
 WHERE condition(s);
 ```
 #### ORDER BY clause -> way to sort your results by a given column in ascending or descending 
 ```
-SELECT column, another_column, …
+SELECT column, another_column,
 FROM mytable
 WHERE condition(s)
 ORDER BY column ASC/DESC;
@@ -59,7 +59,7 @@ ORDER BY column ASC/DESC;
  Database normalization -> minimizes duplicat data in tables.
 Using the JOIN to combine row data across two separate tables using this unique key. 
 ```
-SELECT column, another_table_column, …
+SELECT column, another_table_column,
 FROM mytable
 INNER JOIN another_table 
     ON mytable.id = another_table.id
@@ -74,10 +74,10 @@ LIMIT num_limit OFFSET num_offset;
 INSERT ->  inserting data into a database
 ```
 INSERT INTO mytable
-(column, another_column, …)
-VALUES (value_or_expr, another_value_or_expr, …),
-      (value_or_expr_2, another_value_or_expr_2, …),
-      …;
+(column, another_column, )
+VALUES (value_or_expr, another_value_or_expr),
+      (value_or_expr_2, another_value_or_expr_2)
+     ;
 ```
 ### Exercise 13
 ![Exercise13](./img/13.png "13")
@@ -88,7 +88,7 @@ A common task is to `update` existing data, ,you have to specify exactly which t
 UPDATE mytable
 SET column = value_or_expr, 
     other_column = another_value_or_expr, 
-    …
+  
 WHERE condition;
 ```
 ### Exercise 14
@@ -109,7 +109,7 @@ WHERE condition;
 CREATE TABLE IF NOT EXISTS mytable (
     column DataType TableConstraint DEFAULT default_value,
     another_column DataType TableConstraint DEFAULT default_value,
-    …
+  
 );
 ```
 ### Exercise 16
