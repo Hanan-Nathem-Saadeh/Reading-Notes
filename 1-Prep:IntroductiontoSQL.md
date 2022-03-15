@@ -3,7 +3,7 @@
  represents a collection of related (two-dimensional) tables.with a fixed number of named columns and any number of rows of data.
  ## Lesson 1: SELECT queries:
 We need to write SELECT statements to retrieve data from a SQL database
-**To select specific data from table-> **
+
 ## Exercise1
 ![Exercise1](./img/1.png "1")
 ---
