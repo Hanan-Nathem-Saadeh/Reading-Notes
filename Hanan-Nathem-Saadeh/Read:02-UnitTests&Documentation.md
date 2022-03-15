@@ -18,8 +18,6 @@
 - Go to test>>>>> test explorer
 - select unit test name after that right click then run
 
-### unit test life cycle
-![testing](./img/testCycle.png "2")
 ---
 ### Unit Testing Best Practices
 
