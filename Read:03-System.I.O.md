@@ -17,7 +17,7 @@ FileInfo   ====> provides instance methods for creating, copying, deleting, movi
 
 Directory    ====> provides static methods for creating, moving, and enumerating through directories and subdirectories.
 
-DirectoryInfo ====> provides instance methods for creating, moving, and enumerating through directories and subdirectories.
+DirectoryInfo   ====> provides instance methods for creating, moving, and enumerating through directories and subdirectories.
 
 Path     ====> provides methods and properties for processing directory strings in a cross-platform manner.
 
@@ -30,6 +30,24 @@ Path     ====> provides methods and properties for processing directory strings 
 * Reading - transferring data from a stream into a data structure, such as an array of bytes.
 * Writing - transferring data to a stream from a data source.
 * Seeking - querying and modifying the current position within a stream.
+
+***some commonly used stream classes:***
+~~~> FileStream ~~~> for reading and writing to a file.
+~~~> IsolatedStorageFileStream ~~~> for reading and writing to a file in isolated storage.
+~~~> MemoryStream ~~~> for reading and writing to memory as the backing store.
+~~~> BufferedStream ~~~> for improving performance of read and write operations.
+~~~> NetworkStream ~~~> for reading and writing over network sockets.
+~~~> PipeStream ~~~> for reading and writing over anonymous and named pipes.
+~~~> CryptoStream ~~~> for linking data streams to cryptographic transformations.
+
+
+
+
+
+
+
+
+
 
 
 
