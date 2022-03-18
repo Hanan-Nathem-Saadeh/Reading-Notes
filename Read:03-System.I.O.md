@@ -2,7 +2,7 @@
 ## File and Stream I/O
 It is transfer of data either to or from a storage medium.
 
-~~~> the System.IO namespaces
+### the System.IO namespaces
 >  contain types that enable reading and writing, both synchronously and asynchronously, on data streams and files.
 >  contain types that perform compression and decompression on files, and types that enable communication through pipes and serial ports.
 
@@ -39,17 +39,5 @@ Path     ~~~>  provides methods and properties for processing directory strings 
 ~~~> NetworkStream ~~~> for reading and writing over network sockets.
 ~~~> PipeStream ~~~> for reading and writing over anonymous and named pipes.
 ~~~> CryptoStream ~~~> for linking data streams to cryptographic transformations.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
