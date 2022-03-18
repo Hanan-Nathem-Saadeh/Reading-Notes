@@ -21,7 +21,7 @@ DirectoryInfo   ~~~  provides instance methods for creating, moving, and enumera
 
 Path     ~~~ provides methods and properties for processing directory strings in a cross-platform manner.
 
-**~~~  NOTE: Visual Basic users can use the methods and properties provided by the Microsoft.VisualBasic.FileIO.FileSystem class for file I/O**
+**NOTE: Visual Basic users can use the methods and properties provided by the Microsoft.VisualBasic.FileIO.FileSystem class for file I/O**
 
 ## Streams
 - supports reading and writing bytes..
@@ -40,5 +40,7 @@ Path     ~~~ provides methods and properties for processing directory strings in
 ~~~> NetworkStream ~~~> for reading and writing over network sockets.
 ~~~> PipeStream ~~~> for reading and writing over anonymous and named pipes.
 ~~~> CryptoStream ~~~> for linking data streams to cryptographic transformations.
+---
+
 
 
