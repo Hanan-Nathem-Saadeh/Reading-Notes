@@ -33,13 +33,13 @@ Path     ~~~ provides methods and properties for processing directory strings in
 * Seeking - querying and modifying the current position within a stream.
 
 ***some commonly used stream classes:***
-~~~> FileStream ~~~> for reading and writing to a file.
-~~~> IsolatedStorageFileStream ~~~> for reading and writing to a file in isolated storage.
-~~~> MemoryStream ~~~> for reading and writing to memory as the backing store.
-~~~> BufferedStream ~~~> for improving performance of read and write operations.
-~~~> NetworkStream ~~~> for reading and writing over network sockets.
-~~~> PipeStream ~~~> for reading and writing over anonymous and named pipes.
-~~~> CryptoStream ~~~> for linking data streams to cryptographic transformations.
+~~~>FileStream ===> for reading and writing to a file.
+~~~>IsolatedStorageFileStream ===> for reading and writing to a file in isolated storage.
+~~~>MemoryStream ===> for reading and writing to memory as the backing store.
+~~~ BufferedStream ===> for improving performance of read and write operations.
+~~~ NetworkStream ===> for reading and writing over network sockets.
+~~~ PipeStream ===> for reading and writing over anonymous and named pipes.
+~~~ CryptoStream ===> for linking data streams to cryptographic transformations.
 ---
 
 
