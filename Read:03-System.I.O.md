@@ -13,6 +13,7 @@ you can get and set properties for files and directories, and retrieve collectio
 * Directory    ===>  provides static methods for creating, moving, and enumerating through directories and subdirectories.
 * DirectoryInfo   ===>  provides instance methods for creating, moving, and enumerating through directories and subdirectories.
 * Path     ===> provides methods and properties for processing directory strings in a cross-platform manner.
+* 
 **NOTE: Visual Basic users can use the methods and properties provided by the Microsoft.VisualBasic.FileIO.FileSystem class for file I/O**
 ## Streams
 * supports reading and writing bytes..
@@ -42,9 +43,19 @@ You should perform tasks asynchronously if your application needs to remain resp
 ## Compression
 * Compression refers to the process of reducing the size of a file for storage. 
 * Decompression is the process of extracting the contents of a compressed file so they are in a usable format.
+ 
 **The following classes are frequently used when compressing and decompressing files and streams:**
 * ZipArchive ===> for creating and retrieving entries in the zip archive.
 * ZipArchiveEntry ===> for representing a compressed file.
 * ZipFile ===> for creating, extracting, and opening a compressed package.
 * ZipFileExtensions ===> for creating and extracting entries in a compressed package.
 
+## Isolated storage
+is a data storage mechanism that provides isolation and safety by defining standardized ways of associating code with saved data. 
+- Isolated storage is particularly useful when your application does not have permission to access user files.
+- You can save settings or files for your application in a manner that is controlled by the computer's security policy.
+**The following classes are frequently used when implementing isolated storage:**
+
+* IsolatedStorage – provides the base class for isolated storage implementations.
+* IsolatedStorageFile – provides an isolated storage area that contains files and directories.
+* IsolatedStorageFileStream - exposes a file within isolated storage.
