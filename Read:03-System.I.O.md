@@ -7,7 +7,7 @@ It is transfer of data either to or from a storage medium.
 ## Files and directories :
 you can get and set properties for files and directories, and retrieve collections of files and directories based on search criteria.
 
-**some commonly used file and directory classes:**
+**Common Classes:**
 * File     ===>  provides static methods for creating, copying, deleting, moving, and opening files, and helps create a FileStream object.
 * FileInfo   ===>  provides instance methods for creating, copying, deleting, moving, and opening files, and helps create a FileStream object.
 * Directory    ===>  provides static methods for creating, moving, and enumerating through directories and subdirectories.
@@ -24,7 +24,7 @@ you can get and set properties for files and directories, and retrieve collectio
 * Writing - transferring data to a stream from a data source.
 * Seeking - querying and modifying the current position within a stream.
 
-***some commonly used stream classes:***
+***Common Classes:***
 * FileStream ===> for reading and writing to a file.
 * IsolatedStorageFileStream ===> for reading and writing to a file in isolated storage.
 * MemoryStream ===> for reading and writing to memory as the backing store.
@@ -32,7 +32,7 @@ you can get and set properties for files and directories, and retrieve collectio
 * NetworkStream ===> for reading and writing over network sockets.
 * PipeStream ===> for reading and writing over anonymous and named pipes.
 ## Readers and writers:
-**some commonly used reader and writer classes:**
+**Common Classes:**
 * BinaryReader and BinaryWriter ===> for reading and writing primitive data types as binary values.
 * StreamReader and StreamWriter ===> for reading and writing characters by using an encoding value to convert the characters to and from bytes.
 * StringReader and StringWriter ===> for reading and writing characters to and from strings.
@@ -59,3 +59,19 @@ is a data storage mechanism that provides isolation and safety by defining stand
 * IsolatedStorage – provides the base class for isolated storage implementations.
 * IsolatedStorageFile – provides an isolated storage area that contains files and directories.
 * IsolatedStorageFileStream - exposes a file within isolated storage.
+## Write to a file
+[Writing to a file](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-write-text-to-a-file)
+Example:
+
+From Microsoft Docs
+![Stream Writer](./img/streamwriter.png)
+
+## Reading to a File
+[Reading to a File](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-read-and-write-to-a-newly-created-data-file)
+example:
+
+![Stream Writer](./img/streamreader.png)
+
+
+[&lt;--&#91;BACK&#93;](/README.md)
+
