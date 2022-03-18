@@ -60,18 +60,23 @@ is a data storage mechanism that provides isolation and safety by defining stand
 * IsolatedStorageFile – provides an isolated storage area that contains files and directories.
 * IsolatedStorageFileStream - exposes a file within isolated storage.
 ## Write to a file
+Common classes -> StreamWriter , file, Path.
+
 [Writing to a file](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-write-text-to-a-file)
 Example:
 
 From Microsoft Docs
+
 ![Stream Writer](./img/streamwriter.png)
 
 ## Reading to a File
+The System.IO.BinaryWriter and System.IO.BinaryReader classes are used for writing and reading data other than character strings.
+
 [Reading to a File](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-read-and-write-to-a-newly-created-data-file)
 example:
 
 ![Stream Writer](./img/streamreader.png)
 
 
-[&lt;--&#91;BACK&#93;](/README.md)
+[BACK TO MY READING NOTE](/README.md)
 
