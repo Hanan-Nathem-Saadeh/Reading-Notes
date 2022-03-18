@@ -40,7 +40,32 @@ you can get and set properties for files and directories, and retrieve collectio
 * NetworkStream ===> for reading and writing over network sockets.
 * PipeStream ===> for reading and writing over anonymous and named pipes.
 * CryptoStream ===> for linking data streams to cryptographic transformations.
----
+## Readers and writers:
+**some commonly used reader and writer classes:**
+* BinaryReader and BinaryWriter ===> for reading and writing primitive data types as binary values.
 
+* StreamReader and StreamWriter ===> for reading and writing characters by using an encoding value to convert the characters to and from bytes.
 
+* StringReader and StringWriter ===> for reading and writing characters to and from strings.
+
+* TextReader and TextWriter ===> serve as the abstract base classes for other readers and writers that read and write characters and strings, but not binary data.
+## Asynchronous I/O operations:
+**With  synchronous I/O operations, the UI thread is blocked until the resource-intensive operation has completed.**
+You should perform tasks asynchronously if your application needs to remain responsive to the user.and to prevent creating the impression that your app has stopped working.
+## Compression
+* Compression refers to the process of reducing the size of a file for storage. 
+* Decompression is the process of extracting the contents of a compressed file so they are in a usable format.
+**The following classes are frequently used when compressing and decompressing files and streams:**
+
+* ZipArchive ===> for creating and retrieving entries in the zip archive.
+
+* ZipArchiveEntry ===> for representing a compressed file.
+
+* ZipFile ===> for creating, extracting, and opening a compressed package.
+
+* ZipFileExtensions ===> for creating and extracting entries in a compressed package.
+
+* DeflateStream ===> for compressing and decompressing streams using the Deflate algorithm.
+
+* GZipStream ===> for compressing and decompressing streams in gzip data format.
 
