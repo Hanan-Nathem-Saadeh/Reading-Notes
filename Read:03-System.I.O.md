@@ -5,7 +5,6 @@ It is transfer of data either to or from a storage medium.
 * contain types that enable reading and writing, both synchronously and asynchronously, on data streams and files.
 * contain types that perform compression and decompression on files, and types that enable communication through pipes and serial ports.
 ## Files and directories :
-you can get and set properties for files and directories, and retrieve collections of files and directories based on search criteria.
 
 **Common Classes:**
 * File     ===>  provides static methods for creating, copying, deleting, moving, and opening files, and helps create a FileStream object.
@@ -13,8 +12,7 @@ you can get and set properties for files and directories, and retrieve collectio
 * Directory    ===>  provides static methods for creating, moving, and enumerating through directories and subdirectories.
 * DirectoryInfo   ===>  provides instance methods for creating, moving, and enumerating through directories and subdirectories.
 * Path     ===> provides methods and properties for processing directory strings in a cross-platform manner.
-* 
-**NOTE: Visual Basic users can use the methods and properties provided by the Microsoft.VisualBasic.FileIO.FileSystem class for file I/O**
+
 ## Streams
 * supports reading and writing bytes..
 * provide a common view of data sources and repositories, and isolate the programmer from the specific details of the operating system and underlying devices.
@@ -28,8 +26,6 @@ you can get and set properties for files and directories, and retrieve collectio
 * FileStream ===> for reading and writing to a file.
 * IsolatedStorageFileStream ===> for reading and writing to a file in isolated storage.
 * MemoryStream ===> for reading and writing to memory as the backing store.
-* BufferedStream ===> for improving performance of read and write operations.
-* NetworkStream ===> for reading and writing over network sockets.
 * PipeStream ===> for reading and writing over anonymous and named pipes.
 ## Readers and writers:
 **Common Classes:**
@@ -48,7 +44,6 @@ You should perform tasks asynchronously if your application needs to remain resp
 * ZipArchive ===> for creating and retrieving entries in the zip archive.
 * ZipArchiveEntry ===> for representing a compressed file.
 * ZipFile ===> for creating, extracting, and opening a compressed package.
-* ZipFileExtensions ===> for creating and extracting entries in a compressed package.
 
 ## Isolated storage
 is a data storage mechanism that provides isolation and safety by defining standardized ways of associating code with saved data. 
