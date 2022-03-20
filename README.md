@@ -26,7 +26,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 | prep4 : Read C# History    |[prep4 : Read C# History](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Prep4:%20ReadC%23History.md) |
 | Read: 01 - Exception Handling & Debugging |[Exception Handling & Debugging](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read1:ExceptionHandlingDebugging.md) |
 | Read: 02 - Unit Tests & Documentation | [Read: 02 - Unit Tests & Documentation](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:02-UnitTests%26Documentation.md) |
-
+|Read:03-System.I.O | [Read:03-System.I.O](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:03-System.I.O.md) |
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
