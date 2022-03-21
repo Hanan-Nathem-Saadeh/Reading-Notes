@@ -81,7 +81,8 @@ public class Adult : Person
 **Auto Implemented Properties**
 - When properties just assign or retrieve a value.
 - {get; set;}
-
+# Stack vs Heap
+[](./img/heapvsstack.gif)
 ## Stack
 - Stack is more or less responsible for keeping track of what's executing in our code (or what's been "called").
 - Value types are stored in the Stack.
