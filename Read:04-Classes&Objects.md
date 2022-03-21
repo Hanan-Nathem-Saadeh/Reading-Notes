@@ -1,9 +1,10 @@
 # Classes & Memory Management
+
 **class is a reference type.**
  At run time, when you declare a variable of a reference type, the variable contains the value null until :
  - create an instance of the class by using the new operator.==> MyClass myclass = new Myclass();
  - assign it an object of a compatible type that may have been created elsewhere.==> MyClass myclass2 = myclass;
- - 
+  
 **Declaring Classes:**
 - class keyword followed by a unique identifier.
 - The name of the class must be a valid C# identifier name
@@ -110,8 +111,3 @@ public class Adult : Person
 - The system has low physical memory. This is detected by either the low memory notification from the OS or low memory as indicated by the host.
 - The memory that's used by allocated objects on the managed heap surpasses an acceptable threshold. This threshold is continuously adjusted as the process runs.
 - The GC.Collect method is called. In almost all cases, you don't have to call this method, because the garbage collector runs continuously. - This method is primarily used for unique situations and testing.
-
-
-
-
- 
