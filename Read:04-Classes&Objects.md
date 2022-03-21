@@ -16,11 +16,13 @@
 }
 
 **Creating objects**
+
 Customer object1 = new Customer();
 - you can create an object reference without creating an object at all:
  Customer object2;
  
  **Class inheritance**
+ 
 - When you create a class, you can inherit from any other class
 - Done by using derivation
 - If a Manager is Inheriting (Receiving all members of the base class except the constructor) from the class Employerr
@@ -33,6 +35,7 @@ public class Manager : Employee
 is a method whose name is the same as the name of its type.
 
 **Constructor syntax**
+
 public class Person
 {
    private string last;
@@ -48,9 +51,11 @@ public class Person
 }
 
 **If a constructor can be implemented as a single statement, you can use an expression body definition.**
+
  public Location(string name) => Name = name;
  
  **Static Constructors**
+ 
  A class or struct can also have a static constructor, which initializes static members of the type.
 public class Adult : Person
 {
@@ -87,12 +92,14 @@ public class Adult : Person
 ## Garbage Collection Fundamentals
 
 **Benefits**
+
 - The garbage collector provides the following benefits:
 - Frees developers from having to manually release memory.
 - Allocates objects on the managed heap efficiently.
 - Provides memory safety by making sure that an object cannot use for itself the memory allocated for another object.
 
 **Some Memory Fundamentals**
+
 * Each process has its own, separate virtual address space. All processes on the same computer share the same physical memory and the page file, if there is one.
 * Virtual memory can be in three states:
    - Free - The block of memory has no references to it and is available for allocation.
@@ -100,10 +107,12 @@ public class Adult : Person
    - Committed - The block of memory is assigned to physical storage.
    
 **Memory Allocation**
+
 - When you initialize a new process, the runtime reserves a contiguous region of address space for the process.
 - Called the managed heap.
  
 **Memory release**
+
 - The garbage collector's optimizing engine determines the best time to perform a collection based on the allocations being made.
 - When the garbage collector performs a collection, it releases the memory for objects that are no longer being used by the application.
 **Garbage Collection**
