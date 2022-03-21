@@ -115,6 +115,7 @@ public class Adult : Person
 
 - The garbage collector's optimizing engine determines the best time to perform a collection based on the allocations being made.
 - When the garbage collector performs a collection, it releases the memory for objects that are no longer being used by the application.
+
 **Garbage Collection**
 
 - The system has low physical memory. This is detected by either the low memory notification from the OS or low memory as indicated by the host.
