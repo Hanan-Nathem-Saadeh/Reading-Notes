@@ -13,5 +13,6 @@
         * Worst Case: The efficiency for the worst possible input of size n.
         * Best Case: The efficiency for the best possible input of size n.
         * Average Case: The efficiency for a “typical” or “random” input of size n.
+    **Basic asymptotic**
     ![](./img/EfficiencyNotations.png)
         
