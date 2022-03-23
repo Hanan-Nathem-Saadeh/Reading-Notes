@@ -18,7 +18,7 @@
     
     ![](./img/EfficiencyNotations.png)
     ---
-    # Linked Lists
+    # 2- Linked Lists
     
     ![](./img/LinkedList.jpg)
    ### What is a Linked List
