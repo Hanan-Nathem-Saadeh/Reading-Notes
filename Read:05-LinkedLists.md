@@ -7,5 +7,6 @@
      * Units of Measurement:
          * Three Measurements of time: milliseconds ,operations ,Basic Operations.
          * Four Sources of Memory Usage during function run-time : code for the algorithm,input ,output ,working space.
-     * Orders of Growth
+     * Orders of Growth : 
+     ![](./img/OrdersOfGrowth.png)
      * Best Case, Worst Case, and Average Case
