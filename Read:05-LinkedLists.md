@@ -17,5 +17,18 @@
     **Basic asymptotic**
     
     ![](./img/EfficiencyNotations.png)
+    ---
+    # Linked Lists
+    
+    ![](./img/LinkedList.jpg)
+    
+    - A Linked List is a sequence of Nodes that are connected/linked to each other.
+    -  each Node references the next Node in the link.
+    - Singly refers to the number of references the node has. A Singly linked list means that there is only one reference.
+    - Nodes are the individual items/links that live in a linked list. Each node contains the data for each link.
+    - Each node contains a property called Next. This property contains the reference to the next node.
+    - The Head is a reference of type Node to the first node in a linked list.
+    - he Current is a reference of type Node to the node that is currently being looked at.
+    - 
     
         
