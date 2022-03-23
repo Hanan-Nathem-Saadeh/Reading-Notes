@@ -9,4 +9,9 @@
          * Four Sources of Memory Usage during function run-time : code for the algorithm,input ,output ,working space.
      * Orders of Growth : 
      ![](./img/OrdersOfGrowth.png)
-     * Best Case, Worst Case, and Average Case
+     * Best Case, Worst Case, and Average Case:
+        * Worst Case: The efficiency for the worst possible input of size n.
+        * Best Case: The efficiency for the best possible input of size n.
+        * Average Case: The efficiency for a “typical” or “random” input of size n.
+    ![](./img/EfficiencyNotations.png)
+        
