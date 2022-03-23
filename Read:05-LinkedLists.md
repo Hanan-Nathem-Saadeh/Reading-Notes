@@ -35,10 +35,17 @@
      - we cant use any loop we use the next property.
      - the best way to travel its while loop .
      - first we must look to the head then loop.
-     - 
-    **Traversal Big O**
+     
+    ### Traversal Big O
     - Big O of time for Includes would be O(n). This is because, at its worse case, the node we are looking for will be the very last node in the linked list.
     - The Big O of space for Includes would be O(1). This is because there is no additional space being used than what is already given to us with the linked list input.
+   ### Adding a Node
+1- Adding O(1) =+=> first we connect new node with the head and make its point ot the previous head ==>  we disconnect the head on previous node .
+2- Adding a Node O(n) ===> first we create the new node ===> we move to the O(n) node we want to add we make the previous node point to the new node and make he new node point to the next node .
+## What’s a Linked List, Anyway? [Part 1]
+
+
+
   
     
         
