@@ -48,6 +48,14 @@
 ![](./img/PartsOfTheLinkedList.jpeg)
 2- Linear data structures
 ![](./img/DataStructure.jpeg)
+3- Memory management
+![](./img/memoryManegment.jpeg)
+## What’s a Linked List, Anyway? [Part 2]
+BigO notation.
+- O(1) is what you want. Constant time.
+- O(n) will take as long as the number of elements O(n^2) will take exponentially as long as the number of elements.
+- You can't search quickly through a linked-list. It will also take a long time to add something to the end of the list, because you have to travel through the entire list to get there.
+- They aren't the answer to all you needs, but they are good for adding things to the beginning, and are dynamic. Arrays are OK too.
 
 
 
