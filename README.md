@@ -29,6 +29,9 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read:03-System.I.O | [Read:03-System.I.O](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:03-System.I.O.md) |
 |Read:04-Classes & objects & Memory Management | [Read:04-Classes & Memory Management](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:04-Classes%26Objects.md) |
 |Read:05 Linked Lists | [Read:05 Linked Lists](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:05-LinkedLists.md) |
+|Read: 06 - OOP Principles | [Read: 06 - OOP Principles](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:06-OOP-Principles.md) |
+
+https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:06-OOP-Principles.md
 
 
 ---
