@@ -10,5 +10,8 @@
 
 **derived class** ==> the class that inherits those members.
 
+**direct base class** ==> A derived class can have only one direct base class.
 
-    
+  **Example**
+  base class ==> Animal
+  derived class ==> Mammal and Reptile.
