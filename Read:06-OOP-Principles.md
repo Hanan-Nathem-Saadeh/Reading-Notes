@@ -1,6 +1,7 @@
 # Object Oriented Principles (OOP) :
 
 ![](./img/OOP.png)
+
  The primary characteristics of object-oriented programming :
  - Inheritance.
  - encapsulation.
@@ -41,6 +42,13 @@ enables you to create new classes that reuse, extend, and modify the behavior de
 It is the ability for certain inherited traits to be changed or overridden by deriving classes. In our code, polymorphism is shown in the method sleep which is overridden and changed several times in different levels of inheritance.
 ### Object-Oriented programming (C#)
 * Abstraction ==>  Modeling the relevant attributes and interactions of entities as classes to define an abstract representation of a system.
+     - You used Abstraction when you defined classes for each of the different account types. Those classes described the behavior for that type of account.
 * Encapsulation ==> Hiding the internal state and functionality of an object and only allowing access through a public set of functions.
+     - You used Encapsulation when you kept many details private in each class.
 * Inheritance ==> Ability to create new abstractions based on existing abstractions.
+     - You used Inheritance when you leveraged the implementation already created in the BankAccount class to save code.
 * Polymorphism ==> Ability to implement inherited properties or methods in different ways across multiple abstractions.
+     - You used Polymorphism when you created virtual methods that derived classes could override to create specific behavior for that account type.
+
+
+
