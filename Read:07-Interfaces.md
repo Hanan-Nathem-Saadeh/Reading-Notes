@@ -21,9 +21,14 @@ interface IEquatable<T>
   - In Interfaces may contain static constructors, fields, constants, or operators.
   -  Interface members are public by default, and you can explicitly specify accessibility modifiers, such as public, protected, internal, private, protected internal, or private protected.  
   - A class or struct that implements an interface must provide an implementation for all declared members without a default implementation provide by the interface.
+  - 
   ![](./img/Interface.png)
-  - An interface can't be instantiated directly. Its members are implemented by any class or struct that implements the interface.
-A class or struct can implement multiple interfaces. A class can inherit a base class and also implement one or more interfaces.
   
+  
+  # Interface References
+- In C#, you are allowed to create a reference variable of an interface type or in other words, you are allowed to create an interface reference variable.
+- Such kind of variable can refer to any object that implements its interface.
+- An interface reference variable only knows that methods which are declared by its interface declaration.
+- It does not allow accessing any other variables or methods that might be supported by the objects.
 
   
