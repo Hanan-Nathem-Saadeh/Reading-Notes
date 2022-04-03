@@ -89,3 +89,5 @@ Can search Arrays with .Find
 Can also sort Arrays with .Sort
 Can use the Array class to utilize Stacks, Queues, and Set Data Structures.
 
+## Things I want to know more about
+there alot of questions about how i will use it exactly in VS and our applications.
