@@ -1,4 +1,4 @@
-# Notes for Read 08 - Collections
+# Read 08 - Collections
 
 ## Collections
 
