@@ -15,4 +15,6 @@
 
 ### complete query operation:
 
-![](QOperation.png)
+![This is an image](./img/QOperation.png)
+
+
