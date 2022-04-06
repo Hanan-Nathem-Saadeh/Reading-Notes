@@ -51,7 +51,7 @@ var queryLondonCustomers = from cust in customers
 ## Group
  enables you to group your results based on a key that you specify.
  ```
- `// queryCustomersByCity is an IEnumerable<IGrouping<string, Customer>>
+ // queryCustomersByCity is an IEnumerable<IGrouping<string, Customer>>
   var queryCustomersByCity =
       from cust in customers
       group cust by cust.City;
@@ -77,4 +77,24 @@ var queryLondonCustomers = from cust in customers
 ## Select
 
 produces the results of the query and specifies the "shape" or type of each returned element. 
+
+---
+
+## Anonymous Types & Anonymous Objects
+An anonymous type is specified through a var type:
+
+    var filteredNames = names.Where (n => n.Length >= 4);
+    
+    --- 
+    
+An anonymous object is an object that is a "modified" object that is the result from a LINQ search:
+
+var bookAuthorCollection = from b in books
+                           select new {
+                             Book: b,
+                             Author: b.Authors[0]
+                           };
+
+foreach (var x in bookAuthorCollection)
+    Console.WriteLine("Book title - {0}, First author {1}", x.Book.Title, x.Author.FirstName);
 
