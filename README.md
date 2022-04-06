@@ -33,6 +33,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read:07 - Interfaces| [Read:07 - Interfaces](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:07-Interfaces.md) |
 |Read:08 - Collections| [Read:08-Collections](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:08-Collections.md) |
 |Read: 09 - LINQ| [Read: 09 - LINQ ](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:09-LINQ%26Delegates.md) |
+|Read: 10 - Stacks And Queues| [Read: 10 - Stacks And Queues](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:10-StacksAndQueues.md) |
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
