@@ -37,10 +37,13 @@ var queryLondonCustomers3 =
     where cust.City == "London"
     orderby cust.Name ascending
     select cust;
+    
     ```
     
 ### Filter
+
 causes the query to return only those elements for which the expression is true. The result is produced by using the where clause. The filter in effect specifies which elements to exclude from the source sequence.
+
 ```
 var queryLondonCustomers = from cust in customers
                            where cust.City == "London"
