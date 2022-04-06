@@ -15,5 +15,11 @@
 
 ![](./img/LIFO_FILO.png)
 
-![](./img/Push-operation-Stack-data-structure.webp)
+## Push O(1)
+
+![](./img/PushStack.png)
+
+## POP O(1)
+
+![](./img/PopStack.png)
 
