@@ -83,12 +83,15 @@ produces the results of the query and specifies the "shape" or type of each retu
 ## Anonymous Types & Anonymous Objects
 An anonymous type is specified through a var type:
 
+```
     var filteredNames = names.Where (n => n.Length >= 4);
-    
-    --- 
+```
+
+---
     
 An anonymous object is an object that is a "modified" object that is the result from a LINQ search:
 
+```
 var bookAuthorCollection = from b in books
                            select new {
                              Book: b,
@@ -97,4 +100,5 @@ var bookAuthorCollection = from b in books
 
 foreach (var x in bookAuthorCollection)
     Console.WriteLine("Book title - {0}, First author {1}", x.Book.Title, x.Author.FirstName);
+    ```
 
