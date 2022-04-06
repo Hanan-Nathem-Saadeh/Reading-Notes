@@ -14,4 +14,5 @@
 - Execute the Query.
 
 ### complete query operation:
+
 ![](QOperation.png)
