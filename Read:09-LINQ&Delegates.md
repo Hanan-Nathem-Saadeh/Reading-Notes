@@ -17,4 +17,64 @@
 
 ![This is an image](./img/QOperation.png)
 
+### Query execution
+
+```
+foreach (int num in numQuery)
+{
+    Console.Write("{0,1} ", num);
+}
+```
+### Basic LINQ Query Operations
+
+You can
+
+### Order 
+will cause the elements in the returned sequence to be sorted according to the default comparer for the type being sorted.
+```
+var queryLondonCustomers3 =
+    from cust in customers
+    where cust.City == "London"
+    orderby cust.Name ascending
+    select cust;
+    ```
+    
+### Filter
+causes the query to return only those elements for which the expression is true. The result is produced by using the where clause. The filter in effect specifies which elements to exclude from the source sequence.
+```
+var queryLondonCustomers = from cust in customers
+                           where cust.City == "London"
+                           select cust;
+```
+### Group
+ enables you to group your results based on a key that you specify.
+ `// queryCustomersByCity is an IEnumerable<IGrouping<string, Customer>>
+  var queryCustomersByCity =
+      from cust in customers
+      group cust by cust.City;
+
+  // customerGroup is an IGrouping<string, Customer>
+  foreach (var customerGroup in queryCustomersByCity)
+  {
+      Console.WriteLine(customerGroup.Key);
+      foreach (Customer customer in customerGroup)
+      {
+          Console.WriteLine("    {0}", customer.Name);
+      }
+ `
+ 
+ ```
+### Join
+ create associations between sequences that are not explicitly modeled in the data sources. 
+ ```
+ var innerJoinQuery =
+    from cust in customers
+    join dist in distributors on cust.City equals dist.City
+    select new { CustomerName = cust.Name, DistributorName = dist.Name };
+ ```
+### Select
+produces the results of the query and specifies the "shape" or type of each returned element. 
+```
+
+```
 
