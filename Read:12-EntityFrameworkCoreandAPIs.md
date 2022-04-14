@@ -1,5 +1,8 @@
 # Read: 12 - Entity Framework Core and APIs
 - we will Get started with EF Core in an ASP.NET MVC web app.
+
+![](./img/R.jpg)
+
 ### Create web app
 - Start Visual Studio and select Create a new project.
 - In the Create a new project dialog, select ASP.NET Core Web Application > Next.
