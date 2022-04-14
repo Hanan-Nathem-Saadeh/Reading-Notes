@@ -61,18 +61,3 @@ using (var db = new BloggingContext())
 
 - With EF Core, data access is performed using a model. A model is made up of entity classes and a context object that represents a session with the database. The context object allows querying and saving data. For more information, see Creating a Model.
 
-### API 
-
-**for evry resorce access there are a status code to tel the user what habend the this response like :**
-
-- 200 meaning that is OK.
-
-- 201 meaning that is OK and you create a new resurce.
-
-- 400 meaning that is NOT ok client do somting wronge.
-
-- 404 meaning that resurce Not there or URI is wronge.
-
-- 401 meaning that you dont have the athintction to retch the resurce.
-
-- 500 meaning that somthing wronge in the server.
