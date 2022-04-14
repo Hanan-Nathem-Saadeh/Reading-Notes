@@ -13,15 +13,41 @@ Select Create.
 - ASP.NET Core Web App (Model-View-Controller).
 - Create
 
-### Three ways to develop a model in EF: 
+### Use SQL Server Object Explorer (SSOX) to view the database in Visual Studio:
 
-- Generate from exsisting database
-- Hand Code a Model to match a database
-- Once model is created, use EF Migrations
-- Use LINQ <-- should be LIQ (I want it to anyway)
+- Select SQL Server Object Explorer from the View menu in Visual Studio.
+- In SSOX, select (localdb)\MSSQLLocalDB > Databases.
+- Select ContosoUniversity1, the entry for the database name that's in the connection string in the appsettings.json file.
+- Expand the Tables node to see the tables in the database.
+- Right-click the Student table and click View Data to see the data in the table.
+
+## Modal
+EF supports the following model development approaches:
+- Generate a model from an existing database.
+- Hand code a model to match the database.
+- Once a model is created, use EF Migrations to create a database from the model. Migrations allow evolving the database as the model changes.
 
 Create controller and views
 Use the scaffolding engine in Visual Studio to add an MVC controller and views that will use EF to query and save data.
+
+## Querying
+
+using (var db = new BloggingContext())
+{
+    var blogs = db.Blogs
+        .Where(b => b.Rating > 3)
+        .OrderBy(b => b.Url)
+        .ToList();
+}
+
+## Saving data
+
+using (var db = new BloggingContext())
+{
+    var blog = new Blog { Url = "http://sample.com" };
+    db.Blogs.Add(blog);
+    db.SaveChanges();
+}
 
 ### The automatic creation of CRUD action methods and views is known as scaffolding.
 
