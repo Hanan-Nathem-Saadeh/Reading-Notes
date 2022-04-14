@@ -35,6 +35,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 09 - LINQ| [Read: 09 - LINQ ](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:09-LINQ%26Delegates.md) |
 |Read: 10 - Stacks And Queues| [Read: 10 - Stacks And Queues](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:10-StacksAndQueues.md) |
 |Read : 11-Entity Relationship Diagram| [Read : 11-Entity Relationship Diagram](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:11-EntityRelationshipDiagram.md) |
+|Read: 12 - Entity Framework Core and APIs| [Read: 12 - Entity Framework Core and APIs](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:12-EntityFrameworkCoreandAPIs) |
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
