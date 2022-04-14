@@ -23,7 +23,7 @@ Select Create.
 Create controller and views
 Use the scaffolding engine in Visual Studio to add an MVC controller and views that will use EF to query and save data.
 
-The automatic creation of CRUD action methods and views is known as scaffolding.
+### The automatic creation of CRUD action methods and views is known as scaffolding.
 
 - In Solution Explorer, right-click the Controllers folder and select Add > New Scaffolded Item.
 - In the Add Scaffold dialog box:
