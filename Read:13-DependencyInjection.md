@@ -29,6 +29,32 @@ To use scoped services in middleware, use one of the following approaches:
 
 ![](./img/repository-aggregate-database-table-relationships.png)
 
+## SOLID
+
+- Single Responsibility Principle.
+
+- One method == One reason to change.
+
+- Open/Close Principle
+
+- Method/Class should be open for extention, closed for modification
+
+- Liskov Substitution Principle
+
+- An Object in an application should be able to be replaced with a type derived from it withough breaking the application. Should be able to use type <Animal> and also use <Dog> and <CAT> that derive from it.
+
+- Interface Segregation Principle
+
+- People should not be forced to rely on interfaces they do not use.
+
+- Dedendency Inversion Principle
+
+- Code should depend on Abstractions not concrete implementations.
+
+## SOLID Principles in Pictures
+
+![](./img/Solid-Principles-in-C-.NET-Core-5.png)
+
 
 
 
