@@ -19,3 +19,16 @@ To use scoped services in middleware, use one of the following approaches:
    - Inject the service into the middleware's Invoke or InvokeAsync method. Using constructor injection throws a runtime exception because it forces the scoped service to behave like a singleton. 
    - Use Factory-based middleware. Middleware registered using this approach is activated per client request (connection), which allows scoped services to be injected into the middleware's constructor.
    ## The Repository pattern
+   - Repositories are classes or components that encapsulate the logic required to access data sources.
+   - They centralize common data access functionality, providing better maintainability and decoupling the infrastructure or technology used to access databases from the domain model layer.
+   - A repository performs the tasks of an intermediary between the domain model layers and data mapping, acting in a similar way to a set of domain objects in memory. 
+- For each aggregate, we should create a repository class. This microservice based on Domain-Driven Design(DDD) patterns, the only channel you should use to update the database should be the repositories.
+- One should define one repository for each aggregate root. This is to achieve the goal of the aggregate root to maintain transactional consistency between all oth objects within the aggregate.
+
+## repository-aggregate-database-table-relationships
+
+![](./img/repository-aggregate-database-table-relationships.png)
+
+
+
+
