@@ -37,6 +37,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read : 11-Entity Relationship Diagram| [Read : 11-Entity Relationship Diagram](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:11-EntityRelationshipDiagram.md) |
 |Read: 12 - Entity Framework Core and APIs| [Read: 12 - Entity Framework Core and APIs](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:12-EntityFrameworkCoreAndAPIs.md) |
 |Read: 13 - Dependency Injection| [Read: 13 - Dependency Injection](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:13-DependencyInjection.md) |
+|Read : Trees| [Read : Trees](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:Trees.md) |
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
