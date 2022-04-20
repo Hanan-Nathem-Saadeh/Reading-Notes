@@ -40,6 +40,7 @@ There is no specific sorting order for a binary tree. Nodes can be added into a 
 
 # Adding a node
 
+
 - Because there are no structural rules for where nodes are “supposed to go” in a binary tree, it really doesn’t matter where a new node gets placed.
 
 - One strategy for adding a new node to a binary tree is to fill all “child” spots from the top down. To do so, we would leverage the use of breadth first traversal. During the traversal, we find the first node that does not have 2 child nodes, and insert the new node as a child. We fill the child slots from left to right.
