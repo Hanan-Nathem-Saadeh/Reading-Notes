@@ -30,4 +30,14 @@
 
 ![](./img/Listing-HomeController.cs.png)
 
+### Listing 3 - HomeController.cs (Index action with no parameter)
+
+![](./img/listing3.png)
+
+### Listing 4 - HomeController.cs (Index action with nullable parameter)
+
+![](./img/Listing4.png)
+### Listing 5 - HomeController.cs (Index action with Id parameter)
+![](./img/listing5.png)
+
 # Routing in ASP.NET Core
