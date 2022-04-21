@@ -41,3 +41,23 @@
 ![](./img/listing5.png)
 
 # Routing in ASP.NET Core
+- Routing is responsible for matching incoming HTTP requests and dispatching those requests to the app's executable endpoints.
+- Endpoints are the app's units of executable request-handling code.
+- Endpoints are defined in the app and configured when the app starts.
+- The endpoint matching process can extract values from the request's URL and provide those values for request processing.
+- Apps can configure routing using:
+      - Controllers
+      - Razor Pages
+      - SignalR
+      - gRPC Services
+      - Endpoint-enabled middleware such as Health Checks.
+      - Delegates and lambdas registered with routing.
+  - All ASP.NET Core templates include routing in the generated code. Routing is registered in the middleware pipeline in Startup.Configure.
+  - Routing uses a pair of middleware, registered by UseRouting and UseEndpoints:
+         - UseRouting adds route matching to the middleware pipeline. This middleware looks at the set of endpoints defined in the app, and selects the best match based on the request.
+         - UseEndpoints adds endpoint execution to the middleware pipeline. It runs the delegate associated with the selected endpoint.
+ - An ASP.NET Core endpoint is:
+     - Executable: Has a RequestDelegate.
+     - Extensible: Has a Metadata collection.
+     - Selectable: Optionally, has routing information.
+     - Enumerable: The collection of endpoints can be listed by retrieving the EndpointDataSource from DI.
