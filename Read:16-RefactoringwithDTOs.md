@@ -35,3 +35,17 @@ namespace BookService.Models
     }
 }
 ```
+
+## Use DTOs for abstraction
+- You can take advantage of DTOs to abstract the domain objects of your application from the user interface or the presentation layer.
+- In doing so, the presentation layer of your application is decoupled from the service layer.
+- So if you would like to change the presentation layer, you can do that easily while the application will continue to work with the existing domain layer.
+- Similarly, you can change the domain layer of your application without having to change the presentation layer of the application.
+
+## Immutability of DTOs
+
+- A DTO is often serialized so that it can be independent of the technology used in the receiver. In most cases, the receiver of the data does not need to modify that data after receipt — ideally it shouldn’t!
+
+- You could use a ReadOnlyCollection or the thread-safe immutable collection types present in the System.Collections.Immutable namespace. You can take advantage of record types in C# 9 to implement immutable DTOs as well.
+
+
