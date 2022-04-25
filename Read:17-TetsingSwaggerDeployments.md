@@ -39,8 +39,10 @@
           }}
           
 - ProductControllerTest.cs
+
  [TestClass]
      public class ProductControllerTest
+     
           [TestMethod]
           
           public void TestDetailsView()
@@ -53,8 +55,11 @@
                Assert.AreEqual("Details", result.ViewName);}}
                
                }
+               
      - The goal is to demonstrate how you can write unit tests for the controllers in your ASP.NET MVC applications.
+     
      - build three different types of unit tests:
+     
           - You learn how to test the view returned by a controller action
           - how to test the View Data returned by a controller action.
           - and how to test whether or not one controller action redirects you to a second controller action.
