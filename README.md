@@ -40,6 +40,8 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 14 - Routing and Navigation Properties| [Read: 14 - Routing and Navigation Properties](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:14-RoutingAndNavigationProperties.md) |
 |Read 15 : Trees| [Read 15 : Trees](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:15-Trees.md) |
 |Read: 16 - Refactoring with DTOs| [Read: 16 - Refactoring with DTOs](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:16-RefactoringwithDTOs.md) |
+|Read: 17 - Tetsing, Swagger, Deployments| [Read: 17 - Tetsing, Swagger, Deployments](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:17-TetsingSwaggerDeployments.md) |
+
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
