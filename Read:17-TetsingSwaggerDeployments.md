@@ -67,3 +67,15 @@
           - You learn how to test the view returned by a controller action
           - how to test the View Data returned by a controller action.
           - and how to test whether or not one controller action redirects you to a second controller action.
+
+# Unit tests of controller logic
+
+- When unit testing controller logic, only the contents of a single action are tested, not the behavior of its dependencies or of the framework itself.
+-  A controller unit test avoids scenarios such as filters, routing, and model binding. 
+-  If you're writing custom filters and routes, unit test them in isolation, not as part of tests on a particular controller action.
+-  The preceding controller:
+    - Follows the Explicit Dependencies Principle.
+    - Expects dependency injection (DI) to provide an instance of IBrainstormSessionRepository.
+    - Can be tested with a mocked IBrainstormSessionRepository service using a mock object framework, such as Moq. 
+    - A mocked object is a fabricated object with a predetermined set of property and method behaviors used for testing.
+
