@@ -20,26 +20,38 @@
      public class ProductController : Controller
      {
           public ActionResult Index()
+          
           {
+          
                // Add action logic here
+               
                throw new NotImplementedException();
+               
           }
+          
 
           public ActionResult Details(int Id)
+          
           {
 
                return View("Details");
+               
           }}
           
 - ProductControllerTest.cs
  [TestClass]
      public class ProductControllerTest
           [TestMethod]
+          
           public void TestDetailsView()
+          
           {
                var controller = new ProductController();
+               
                var result = controller.Details(2) as ViewResult;
+               
                Assert.AreEqual("Details", result.ViewName);}}
+               
                }
      - The goal is to demonstrate how you can write unit tests for the controllers in your ASP.NET MVC applications.
      - build three different types of unit tests:
