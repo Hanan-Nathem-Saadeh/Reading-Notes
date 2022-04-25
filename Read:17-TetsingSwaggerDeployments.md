@@ -1,6 +1,6 @@
 # Read: 17 - Tetsing, Swagger, Deployments
 
-![](.img/Swager.png)
+![](./img/Swager.png)
 
 # Swagger (OpenAPI)
 - is a language-agnostic specification for describing REST APIs. 
@@ -16,6 +16,7 @@
 # Unit Testing
 ## Creating the Controller under Test
 - The ProductController Class that we want to test :
+
      public class ProductController : Controller
      {
           public ActionResult Index()
@@ -29,10 +30,10 @@
 
                return View("Details");
           }}
+          
 - ProductControllerTest.cs
  [TestClass]
      public class ProductControllerTest
-     {
           [TestMethod]
           public void TestDetailsView()
           {
