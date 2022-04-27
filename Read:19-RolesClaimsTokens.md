@@ -45,7 +45,7 @@ builder.Services.AddAuthorization(options =>
 
   * The key points here are that a principal can have multiple identities, these identities can have multiple claims, and the ClaimsPrincipal inherits all the claims of its Identities
 
-## [JWT Authentication](https://codeburst.io/jwt-to-authenticate-servers-apis-c6e179aa8c4e)
+
 
 * JSON Web Token
 
@@ -69,7 +69,5 @@ builder.Services.AddAuthorization(options =>
 
     * The one who uses it. It will be the customer(Server/Mobile App/ Web App/ Client) who will be providing the valid JWT token to consume the API(s) being provided by the Producer
 
-### Additional Resources
 
-* Some information taken from the links provided above
 
