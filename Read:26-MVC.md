@@ -19,10 +19,6 @@ MVC is a design pattern or architecture which helps in developing the web applic
 
 | traditional ASP.NET web application      | MVC |
 | ---------------------------------------------------- | --------------------------------- |
-
-
-
 |  the user action and view (UI) are combined|the View only deals with UI of the page and the user actions are defined in Controller|
-
 | follows the View based architecture which is not so efficient | action-based architecture. Based on the action, an appropriate View is displayed|
 
