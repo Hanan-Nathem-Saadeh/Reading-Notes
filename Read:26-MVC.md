@@ -38,14 +38,30 @@ MVC is a design pattern or architecture which helps in developing the web applic
 - A rich IntelliSense environment for creating HTML and Razor markup.
 - A way to make you more productive and able to produce more robust, reliable, and maintainable code using information only available on the server.
 
-## Managing Tag Helper scope
+### Managing Tag Helper scope
 
-### @addTagHelper
+-  @addTagHelper
 ```
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @addTagHelper *, AuthoringTagHelpers
 ```
-### @removeTagHelper
-```
+-  @removeTagHelper
+
+The @removeTagHelper has the same two parameters as @addTagHelper, and it removes a Tag Helper that was previously added.
+
+### Controlling Tag Helper scope with the _ViewImports.cshtml file
+### Using @tagHelperPrefix to make Tag Helper usage explicit
+### IntelliSense support for Tag Helpers
+
+# Bootstrap 
+is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.
+
+1- Create a new index.html file in your project root. Include the <meta name="viewport> tag as well for proper responsive behavior in mobile devices.
+      
+2- Include Bootstrap’s CSS and JS. Place the <link> tag in the <head> for our CSS, and the <script> tag for our JavaScript bundle (including Popper for positioning dropdowns, poppers, and tooltips) before the closing </body>. Learn more about our CDN links.
+ 
+3- Hello, world! Open the page in your browser of choice to see your Bootstrapped page. Now you can start building with Bootstrap by creating your own layout, adding dozens of components, and utilizing our official examples.
+      
+
 
 
