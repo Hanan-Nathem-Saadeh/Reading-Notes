@@ -45,5 +45,7 @@ MVC is a design pattern or architecture which helps in developing the web applic
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @addTagHelper *, AuthoringTagHelpers
 ```
+### @removeTagHelper
+```
 
 
