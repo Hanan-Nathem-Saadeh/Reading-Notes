@@ -24,15 +24,36 @@ Pass data to views using several approaches:
 ViewData (ViewDataAttribute)
 ViewBag 
 
-## the differences between ViewData and ViewBag  
+## the differences between ViewData and ViewBag
+
 ViewBag isn't available by default for use in Razor Pages PageModel classes.
 
 - ViewData  
 Derives from ViewDataDictionary, so it has dictionary properties that can be useful, such as ContainsKey, Add, Remove, and Clear.
 Keys in the dictionary are strings, so whitespace is allowed. Example: ViewData["Some Key With Whitespace"]
 Any type other than a string must be cast in the view to use ViewData.
+
 - ViewBag  
 Derives from Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.DynamicViewData, so it allows the creation of dynamic properties using dot notation (@ViewBag.SomeKey = <value or object>), and no casting is required. The syntax of ViewBag makes it quicker to add to controllers and views.
 Simpler to check for null values. Example: @ViewBag.Person?.Name
-  
-  
+ 
+# 4 Ways To Create Form In ASP.NET MVC
+ 
+1-Forms - Weakly Typed (Synchronous)
+ Advantage:
+1. It is easy to create a form using Weakly Typed mechanism
+2. Mostly used when you need to create a form with one or two input items.
+
+Disadvantage:
+1. Because, it is not strongly typed so IntelliSense doesn't help you.
+2. Have higher chance of getting exception and runtime error messages.
+ 
+2-Forms - Strongly Typed (Synchronous)
+3-Forms - Strongly Typed AJAX (Asynchronous)
+4-Forms – HTML, AJAX and JQUERY
+ 
+ 
+[ More Details](https://www.completecsharptutorial.com/asp-net-mvc5/4-ways-to-create-form-in-asp-net-mvc.php)
+ 
+ 
+
