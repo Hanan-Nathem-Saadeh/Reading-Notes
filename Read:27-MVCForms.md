@@ -48,9 +48,9 @@ Disadvantage:
 1. Because, it is not strongly typed so IntelliSense doesn't help you.
 2. Have higher chance of getting exception and runtime error messages.
  
-2-Forms - Strongly Typed (Synchronous)
-3-Forms - Strongly Typed AJAX (Asynchronous)
-4-Forms – HTML, AJAX and JQUERY
+2-Forms - Strongly Typed (Synchronous)  
+3-Forms - Strongly Typed AJAX (Asynchronous)  
+4-Forms – HTML, AJAX and JQUERY  
  
  
 [ More Details](https://www.completecsharptutorial.com/asp-net-mvc5/4-ways-to-create-form-in-asp-net-mvc.php)
