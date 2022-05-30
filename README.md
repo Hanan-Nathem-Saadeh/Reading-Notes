@@ -44,8 +44,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 18 - Identity / Authentication| [Read: 18 - Identity / Authentication](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:18-IdentityAuthentication.md) |
 |Read: 19 - Roles, Claims, Tokens| [Read: 19 - Roles, Claims, Tokens](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:19-RolesClaimsTokens.md) |
 |Read: 26 - MVC| [Read: 26 - MVC](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:26-MVC.md) |
-
-
+|Read: 27 - MVC-Form| [Read: 27-MVC-Form](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:27-MVCForms.md) |
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
 
