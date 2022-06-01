@@ -5,7 +5,7 @@
 - This is done through what we call a hash.
 - A hash is the ability to encode the key that will eventually map to a specific location in the data structure that we can look at directly to retrieve the value.
 
-![](../../hashtable.png)
+![](./img/hashtable.png)
 
 Example
 Let’s say we have data of Seattle neighborhood names and their corresponding zip codes.
