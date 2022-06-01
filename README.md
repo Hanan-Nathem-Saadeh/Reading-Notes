@@ -45,7 +45,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 19 - Roles, Claims, Tokens| [Read: 19 - Roles, Claims, Tokens](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:19-RolesClaimsTokens.md) |
 |Read: 26 - MVC| [Read: 26 - MVC](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:26-MVC.md) |
 |Read: 27 - MVC-Form| [Read: 27-MVC-Form](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:27-MVCForms.md) |
-|Read: 28 - MVC-Cookies| [Read: 28-MVC-Cookies]([[https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:27-MVCForms.md](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:28-MVC-Cookies)|
+|Read: 28 - MVC-Cookies| [Read: 28-MVC-Cookies](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:27-MVCForms.md)]
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
