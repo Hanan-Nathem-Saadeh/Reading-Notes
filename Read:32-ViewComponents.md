@@ -1,4 +1,4 @@
-# Read:31 View Components
+# Read:32 View Components
 ## View components in ASP.NET Core
 View components are similar to partial views, but they're much more powerful. View components don't use model binding, and only depend on the data provided when calling into it.  
 
