@@ -48,7 +48,8 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 28 - MVC-Cookies| [Read: 28-MVC-cookies](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:28-MVC-Cookies.md) |
 |Read : 29 - Azure Blobs| [Read : 29 - Azure Blobs](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:29-AzureBlobs.md) |
 |Read: 30 - Hash Table| [Read: 30 - Hash Tabl](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:29HashTables.md) |
-|Read: 31 - Razor Pages|[Read: 31 - Razor Pages](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:31-RazorPages.md)
+|Read: 31 - Razor Pages|[Read: 31 - Razor Pages](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:31-RazorPages.md)|
+|Read: 32 - View Components|[Read: 32 - View Components](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:32-ViewComponents.md)|
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
