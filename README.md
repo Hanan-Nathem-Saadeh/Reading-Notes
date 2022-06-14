@@ -50,7 +50,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 30 - Hash Table| [Read: 30 - Hash Tabl](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:29HashTables.md) |
 |Read: 31 - Razor Pages|[Read: 31 - Razor Pages](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:31-RazorPages.md)|
 |Read: 32 - View Components|[Read: 32 - View Components](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:32-ViewComponents.md)|
-
+|Read: 33 - Sendgrid|[Read: 33 - Sendgrid](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:33-Sendgrid.md)|
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
 
