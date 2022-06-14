@@ -19,13 +19,13 @@
      - Configure Two-factor authentication
      - Create an API key
      - Complete Sender Authentication
-     
-       #### Two-factor authentication
+ 
+###  Two-factor authentication
        - Twilio SendGrid uses Two-factor authentication (2FA) to help protect your account. To enable 2FA, Navigate to Two-Factor Authentication in the Twilio SendGrid Settings menu, and click Add Two-Factor Authentication.  
        - A modal will open where you can complete the 2FA setup. Click Ok, Got it to continue.  
        - Twilio SendGrid supports 2FA using either SMS or the Authy App. Select your preferred 2FA method, and click Next.
        
-       #### API Key
+### API Key
        - In the Twilio SendGrid App, navigate to API Keys in the Settings menu, and select Create API Key.
        - A modal will open where you can create your key. You must name the API key — we recommend something that will clearly differentiate the key from others you may create in the future.  
           ou must also select the type of key you want to create. Twilio SendGrid provides three types of API key:
