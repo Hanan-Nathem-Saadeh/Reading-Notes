@@ -51,7 +51,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 31 - Razor Pages|[Read: 31 - Razor Pages](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:31-RazorPages.md)|
 |Read: 32 - View Components|[Read: 32 - View Components](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:32-ViewComponents.md)|
 |Read: 33 - Sendgrid|[Read: 33 - Sendgrid](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:33-Sendgrid.md)|
-|Read: 34 - Payment Processing|[Read: 34 - Payment Processing]([https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:31-RazorPages.md](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:34-PaymentProcessing.md))|
+|Read: 34 - Payment Processing|[Read: 34 - Payment Processing](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:34-PaymentProcessing.md)|
 
 
 ---
