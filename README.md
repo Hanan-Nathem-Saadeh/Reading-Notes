@@ -52,7 +52,7 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 32 - View Components|[Read: 32 - View Components](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:32-ViewComponents.md)|
 |Read: 33 - Sendgrid|[Read: 33 - Sendgrid](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:33-Sendgrid.md)|
 |Read: 34 - Payment Processing|[Read: 34 - Payment Processing](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:34-PaymentProcessing.md)|
-
+|Read: 35 - GRAPHS|[Read: 35 - GRAPHS](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:35-Graphs.md)|
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
