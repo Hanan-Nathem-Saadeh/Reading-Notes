@@ -53,6 +53,10 @@ I am a Junior .NET Developer, with an undying passion to learn the latest progra
 |Read: 33 - Sendgrid|[Read: 33 - Sendgrid](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:33-Sendgrid.md)|
 |Read: 34 - Payment Processing|[Read: 34 - Payment Processing](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:34-PaymentProcessing.md)|
 |Read: 35 - GRAPHS|[Read: 35 - GRAPHS](https://github.com/Hanan-Nathem-Saadeh/reading-notes/blob/main/Read:35-Graphs.md)|
+|Read: Class 42 - Ethics in Tech|[Read: Class 42 - Ethics in Tech](https://github.com/Hanan-Nathem-Saadeh/Reading-Notes/blob/main/Read:Class42-EthicsinTech.md)|
+
+
+
 
 ---
 ### Contact me: <hanan.nathem111@gmail.com>
