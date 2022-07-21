@@ -39,6 +39,12 @@ The responsibility of respecting privacy applies to computing professionals in a
 
 - 4.1 Uphold, promote, and respect the principles of the Code.  
 - 4.2 Treat violations of the Code as inconsistent with membership in the ACM.  
-- 
 
-
+# Google AI Principles
+1. Be socially beneficial.   
+2. Avoid creating or reinforcing unfair bias.  
+3. Be built and tested for safety.  
+4. Be accountable to people.  
+5. Incorporate privacy design principles. 
+6. Uphold high standards of scientific excellence.
+7. Be made available for uses that accord with these principles.  
